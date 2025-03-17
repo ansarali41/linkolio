@@ -10,7 +10,7 @@ import WhyUsSection from './components/WhyUsSection';
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-gray-900">
+        <div className="min-h-screen bg-[#313E47]">
             <HeroSection />
             <WhyUsSection />
             <ExpertiseSection />
