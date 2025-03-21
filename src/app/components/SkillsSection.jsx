@@ -1,64 +1,85 @@
 import Image from 'next/image';
 
 export default function SkillsSection() {
-  const skills = [
-    {
-      icon: "💻",
-      title: "Web Development",
-      description: "Creating responsive and modern web applications using cutting-edge technologies"
-    },
-    {
-      icon: "📱",
-      title: "Mobile Development",
-      description: "Building native and cross-platform mobile applications"
-    },
-    {
-      icon: "🎨",
-      title: "UI/UX Design",
-      description: "Crafting beautiful and intuitive user interfaces and experiences"
-    },
-    {
-      icon: "☁️",
-      title: "Cloud Solutions",
-      description: "Implementing scalable cloud infrastructure and services"
-    },
-    {
-      icon: "📊",
-      title: "Data Analytics",
-      description: "Analyzing and visualizing data to drive business decisions"
-    },
-    {
-      icon: "🔒",
-      title: "Cybersecurity",
-      description: "Ensuring robust security measures and best practices"
-    }
-  ];
+    const skills = [
+        {
+            icon: '/images/skills-icons/Architecture.png',
+            title: 'Architecture',
+            description: 'Our architects guarantee the design of innovative architecture while ensuring relevance to the business.',
+        },
+        {
+            icon: '/images/skills-icons/Development.png',
+            title: 'Development',
+            description: 'Our developers are passionate and will help you optimize your development processes and improve your velocity.',
+        },
+        {
+            icon: '/images/skills-icons/Devops.png',
+            title: 'DevOps',
+            description: 'We industrialize and make your services more reliable, while maintaining control of the varied and complex environments.',
+        },
+        {
+            icon: '/images/skills-icons/BigData.png',
+            title: 'Big Data',
+            description: 'We help you take ownership of your data assets to know them, exploit them and enhance their value.',
+        },
+        {
+            icon: '/images/skills-icons/Observability.png',
+            title: 'Observability',
+            description: 'Observability is the concern of all our experts because it guarantees the reliability of our solutions.',
+        },
+        {
+            icon: '/images/skills-icons/Agility.png',
+            title: 'Agility',
+            description: 'Our agile mindset develops our resilience, frees up initiative and supports innovation and continuous improvement.',
+        },
+    ];
 
-  return (
-    <section className="bg-gray-900 text-white py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold mb-12 flex items-center">
-          OUR SKILLS
-          <span className="ml-2 inline-block w-2 h-2 bg-orange-500"></span>
-        </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skills.map((skill, index) => (
-            <div 
-              key={index}
-              className="p-6 rounded-lg border border-gray-700 hover:border-orange-500 transition-colors"
-            >
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 flex items-center justify-center mr-4 text-2xl">
-                  {skill.icon}
+    return (
+        <section className="py-16 md:py-20 px-4 md:px-32 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-0 items-center">
+                {/* Column 1 */}
+                <div>
+                    <p className="text-[#ED7D4A] text-center md:text-left leading-trim md:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] md:text-[40px] sm:text-[24px] md:sm:text-[40px]">
+                        <span className="text-white"> Our </span>Skills
+                    </p>
                 </div>
-                <h3 className="text-xl font-semibold">{skill.title}</h3>
-              </div>
-              <p className="text-gray-400">{skill.description}</p>
+
+                <div className="flex justify-center">
+                    <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.20)]"></div>
+                </div>
+
+                {/* Column 2 */}
+                <div>
+                    <p className="text-white font-poppins font-light text-[14px] sm:text-[16px] leading-[178%] sm:leading-[178%]">
+                        We specialize in creating innovative, user-centered solutions with expertise in UX/UI design, software development, and system optimization.
+                    </p>
+                </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+
+            <div className="mb-[70px] hidden md:block"></div>
+
+            {/* 3 div section */}
+            <div className=" grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-[10px] items-center">
+                {skills.map((item, index) => (
+                    <div
+                        key={index}
+                        style={{
+                            borderRight: '1px solid #ED7D4A',
+                            borderBottom: '1px solid #ED7D4A',
+                        }}
+                        className="rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] pl-[45px] pr-[59px] h-[390px] w-[413px]"
+                    >
+                        <div className="flex items-center">
+                            <Image src={item.icon} alt={item.title} width={100} height={100} />
+                            <p className="text-white font-[inter] text-[30px] font-bold leading-normal">{item.title}</p>
+                        </div>
+
+                        <div className="pt-[25px]">
+                            <p className="text-white font-[poppins] text-[23px] font-normal leading-[43px]">{item.description}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
 }

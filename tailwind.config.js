@@ -7,7 +7,7 @@ module.exports = {
                 primary: '#ED7D4A',
             },
             fontFamily: {
-                sans: ['var(--font-inter)'],
+                inter: ['var(--font-inter)'],
                 poppins: ['var(--font-poppins)'],
             },
         },
