@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body className={`${inter.variable} ${poppins.variable} font-sans antialiased bg-[#313E47]`}>
                 <TopBar />
-                <Header />
+                {/* <Header /> */}
                 {children}
             </body>
         </html>
