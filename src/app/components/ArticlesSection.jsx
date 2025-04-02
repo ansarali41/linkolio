@@ -147,7 +147,7 @@ export default function ArticlesSection() {
                 {skills.map((item, index) => (
                     <SwiperSlide key={index}>
                         <div>
-                            <h1 className="text-white font-inter text-[19.375px] font-semibold leading-[22.604px] ">STYLE</h1>
+                            <h1 className="text-white font-[inter] text-[19.375px] font-semibold leading-[22.604px] ">STYLE</h1>
                             <div className="py-[30px]">
                                 <IoCaretDownSharp className="text-[#ED7D4A] w-[16.146px] h-[16.146px]" />
                             </div>
@@ -165,7 +165,7 @@ export default function ArticlesSection() {
                                 {/* date */}
                                 <p className="text-white font-poppins text-[12.917px] font-normal leading-[16.146px]">{item.date}</p>
 
-                                <p className="text-white font-inter text-[19.375px] font-semibold leading-[25.833px] pt-[12px]">{item.title}</p>
+                                <p className="text-white font-[inter] text-[19.375px] font-semibold leading-[25.833px] pt-[12px]">{item.title}</p>
 
                                 <div className="pt-[20px]">
                                     <p className="text-[#EAEAEA] font-poppins font-light text-[12.917px] leading-[156%]">{item.description}</p>

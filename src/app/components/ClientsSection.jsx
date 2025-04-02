@@ -158,7 +158,7 @@ export default function ClientsSection() {
                             {/* text content */}
                             <div className="relative">
                                 <div className="bg-[#ED7D4A] rounded-[20px]  py-[101px] pl-[56px] w-[285px] h-[345px] inline-block">
-                                    <p className="text-[#313E47] font-inter font-semibold text-[25px] leading-[30px] mb-2">
+                                    <p className="text-[#313E47] font-[inter] font-semibold text-[25px] leading-[30px] mb-2">
                                         {client.firstName} <br />
                                         {client.lastName}
                                     </p>
