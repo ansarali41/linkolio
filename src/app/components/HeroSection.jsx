@@ -8,16 +8,16 @@ export default function HeroSection() {
             {/* header */}
             <Header />
             <div className="pb-[40px] lg:pb-0 pl-[20px] lg:pl-32 overflow-hidden">
-                <div className="grid md:grid-cols-12 gap-12 items-center ">
+                <div className="grid md:grid-cols-12 items-center ">
                     {/* content div */}
                     <div className="text-white col-span-12 lg:col-span-5">
-                        <div className="mt-[200px]">
-                            <h1 className="font-[inter] font-[700] text-[66px] leading-[122%] uppercase">YOUR Link to Expertise</h1>
+                        <div className="mt-[80px] text-center lg:text-start lg:mt-[200px]">
+                            <h1 className="font-[inter] font-[700] text-[32px] lg:text-[66px] leading-[122%] uppercase">YOUR Link to Expertise</h1>
                         </div>
 
-                        <div className="flex items-center gap-10 mt-[60px]">
+                        <div className="flex items-center justify-center lg:justify-start gap-6 lg:gap-10 mt-[14px] lg:mt-[60px]">
                             <div>
-                                <p className="font-[inter] font-[600] text-[38.75px]">40k</p>
+                                <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">40k</p>
                                 <p className="font-[inter] font-normal text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Satisfied Clients</p>
                             </div>
                             {/* vertical line */}
@@ -28,11 +28,11 @@ export default function HeroSection() {
                             </div>
 
                             <div>
-                                <p className="font-[inter] font-[600] text-[38.75px]">20</p>
+                                <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">20</p>
                                 <p className="font-[inter] font-normal text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Awards Won</p>
                             </div>
                         </div>
-                        <div className="mt-[65px]">
+                        <div className="mt-[18px] lg:mt-[65px] text-center lg:text-start">
                             <button
                                 type="submit"
                                 className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
