@@ -11,11 +11,12 @@ export default function ContactSection() {
                     </p>
                 </div>
 
+                {/* Column 2 */}
                 <div className="lg:flex justify-center hidden lg:col-span-2">
                     <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.20)]"></div>
                 </div>
 
-                {/* Column 2 */}
+                {/* Column 3 */}
                 <div className="text-center lg:col-span-5">
                     <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
                         Any question or remarks? Just write us a message

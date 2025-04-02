@@ -21,8 +21,10 @@ export default function Home() {
             <SkillsSection />
             <DiamondLine diamondPosition="right" />
             <ClientsSection />
-            <DiamondLine diamondPosition="left" />
-            <ArticlesSection />
+            <div className="hidden xl:block">
+                <DiamondLine diamondPosition="left" />
+                <ArticlesSection />
+            </div>
             <DiamondLine diamondPosition="right" />
             <FaqSection />
             <DiamondLine diamondPosition="left" />

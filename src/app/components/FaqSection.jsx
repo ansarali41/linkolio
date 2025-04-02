@@ -29,22 +29,21 @@ export default function FaqSection() {
     const [openIndex, setOpenIndex] = useState(null);
 
     return (
-        <section className="py-16 md:py-20 px-4 md:px-32 overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px] md:gap-0 items-center">
+        <section className="py-[40px] md:py-20 px-[20px] md:px-32 overflow-hidden">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] md:gap-0 items-center">
                 {/* Column 1 */}
-                <div>
-                    <p className="text-[#ED7D4A] text-center md:text-left leading-trim md:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] md:text-[40px] sm:text-[24px] md:sm:text-[40px]">
+                <div className="lg:col-span-5">
+                    <p className="text-[#ED7D4A] text-center lg:text-left leading-trim lg:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] lg:text-[40px] sm:text-[24px] lg:sm:text-[40px]">
                         <span className="text-white">Frequently</span> asked <span className="text-white">questions</span>
                     </p>
                 </div>
 
-                <div className="flex justify-center">
+                <div className="lg:flex justify-center hidden lg:col-span-2">
                     <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.20)]"></div>
                 </div>
-
                 {/* Column 2 */}
-                <div>
-                    <p className="text-white font-poppins font-light text-sm leading-[156%] sm:text-base sm:leading-[156%]">
+                <div className="text-center md:col-span-5">
+                    <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
                         Find answers to common queries about our services, process, and expertise. Our FAQ section is designed to provide clarity and help you make informed
                         decisions. If you need further assistance, feel free to reach out!
                     </p>
@@ -58,14 +57,14 @@ export default function FaqSection() {
                             className="w-full px-2  pb-[16px] pt-[36px] text-left flex justify-between items-center "
                             onClick={() => setOpenIndex(openIndex === index ? null : index)}
                         >
-                            <span className="font-poppins font-semibold text-[16px] leading-[19.375px]">{faq.question}</span>
+                            <span className="font-poppins font-semibold text-[13px] md:text-[16px] leading-[19.375px]">{faq.question}</span>
                             <span className={`transform transition-transform ${openIndex === index ? 'rotate-180' : ''}`}>
                                 <IoIosArrowDown />
                             </span>
                         </button>
                         {openIndex === index && (
                             <div className="py-[16px] pt-[16px] px-2 text-white">
-                                <span className="font-poppins font-light text-[16px] leading-[19.375px]">{faq.answer}</span>
+                                <span className="font-poppins font-light text-[13px] md:text-[16px] leading-[19.375px]">{faq.answer}</span>
                             </div>
                         )}
                     </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function WhyUsSection() {
     return (
-        <section className="py-16 md:py-20 px-4 md:px-32 overflow-hidden">
+        <section className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
             <div className="grid md:grid-cols-2 gap-5 md:gap-26 items-center">
                 {/* Column 1 */}
                 <div>
@@ -11,7 +11,7 @@ export default function WhyUsSection() {
 
                 {/* Column 2 */}
                 <div>
-                    <p className="text-[#ED7D4A] text-center md:text-left leading-trim md:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] md:text-[40px] sm:text-[24px] md:sm:text-[40px]">
+                    <p className="text-[#ED7D4A] leading-trim md:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] md:text-[40px] sm:text-[24px] pb-[22px]">
                         Why Us?
                     </p>
                     <p className="text-white font-poppins font-light text-[14px] sm:text-[16px] leading-[178%] sm:leading-[178%]">
