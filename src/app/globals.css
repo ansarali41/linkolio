@@ -13,3 +13,14 @@ body {
     font-family: var(--font-sans);
     font-family: var(--font-poppins);
 }
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #c4c4c4;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ed7d4a;
+}

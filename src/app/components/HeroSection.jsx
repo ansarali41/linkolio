@@ -18,7 +18,7 @@ export default function HeroSection() {
                         <div className="flex items-center justify-center lg:justify-start gap-6 lg:gap-10 mt-[14px] lg:mt-[60px]">
                             <div>
                                 <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">40k</p>
-                                <p className="font-[inter] font-normal text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Satisfied Clients</p>
+                                <p className="font-[inter] font-normal text-[14px] lg:text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Satisfied Clients</p>
                             </div>
                             {/* vertical line */}
                             <div>
@@ -29,7 +29,7 @@ export default function HeroSection() {
 
                             <div>
                                 <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">20</p>
-                                <p className="font-[inter] font-normal text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Awards Won</p>
+                                <p className="font-[inter] font-normal text-[14px] lg:text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Awards Won</p>
                             </div>
                         </div>
                         <div className="mt-[18px] lg:mt-[65px] text-center lg:text-start">

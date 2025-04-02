@@ -103,8 +103,8 @@ export default function ContactSection() {
                                 </div>
                             </div>
                             <div>
-                                <label htmlFor="subject" className="block text-sm font-medium text-white font-[inter] text-[12px] leading-[20px] font-500">
-                                    Select Subject
+                                <label htmlFor="subject" className="block text-sm font-medium text-white font-[inter] text-[12px] leading-[20px] font-500 pb-[12px]">
+                                    Select Subject?
                                 </label>
                                 <div className="flex flex-wrap gap-4">
                                     <div className="flex items-center">
