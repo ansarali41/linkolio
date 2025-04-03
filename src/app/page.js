@@ -13,21 +13,12 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-[#313E47]">
             <HeroSection />
-            <DiamondLine diamondPosition="left" />
             <WhyUsSection />
-            <DiamondLine diamondPosition="right" />
             <ExpertiseSection />
-            <DiamondLine diamondPosition="left" />
             <SkillsSection />
-            <DiamondLine diamondPosition="right" />
-            <ClientsSection />
-            <div className="hidden xl:block">
-                <DiamondLine diamondPosition="left" />
-                <ArticlesSection />
-            </div>
-            <DiamondLine diamondPosition="right" />
-            <FaqSection />
-            <DiamondLine diamondPosition="left" />
+            <ClientsSection isShow={false} />
+            <ArticlesSection isShow={false} />
+            <FaqSection isShow={false} />
             <ContactSection />
             <Footer />
         </div>
