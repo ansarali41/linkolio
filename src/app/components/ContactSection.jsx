@@ -1,4 +1,5 @@
 import { MdEmail, MdLocationOn, MdPhoneInTalk } from 'react-icons/md';
+import './RadioButton.css';
 
 export default function ContactSection() {
     return (
@@ -108,49 +109,25 @@ export default function ContactSection() {
                                 </label>
                                 <div className="flex flex-wrap gap-4">
                                     <div className="flex items-center">
-                                        <input
-                                            type="radio"
-                                            id="general"
-                                            name="subject"
-                                            value="general"
-                                            className="w-4 h-4 text-white bg-gray-100 border-gray-300 focus:ring-[#ED7D4A]"
-                                        />
+                                        <input type="radio" id="general" name="subject" value="general" className="custom-radio" />
                                         <label htmlFor="general" className="ml-3 text-sm text-gray-300 font-[inter]">
                                             General Inquiry
                                         </label>
                                     </div>
                                     <div className="flex items-center">
-                                        <input
-                                            type="radio"
-                                            id="support"
-                                            name="subject"
-                                            value="support"
-                                            className="w-4 h-4 text-white bg-gray-100 border-gray-300 focus:ring-[#ED7D4A]"
-                                        />
+                                        <input type="radio" id="support" name="subject" value="support" className="custom-radio" />
                                         <label htmlFor="support" className="ml-3 text-sm text-gray-300 font-[inter]">
                                             Support Request
                                         </label>
                                     </div>
                                     <div className="flex items-center">
-                                        <input
-                                            type="radio"
-                                            id="partnership"
-                                            name="subject"
-                                            value="partnership"
-                                            className="w-4 h-4 text-white bg-gray-100 border-gray-300 focus:ring-[#ED7D4A]"
-                                        />
+                                        <input type="radio" id="partnership" name="subject" value="partnership" className="custom-radio" />
                                         <label htmlFor="partnership" className="ml-3 text-sm text-white font-[inter]">
                                             Partnership Inquiry
                                         </label>
                                     </div>
                                     <div className="flex items-center">
-                                        <input
-                                            type="radio"
-                                            id="other"
-                                            name="subject"
-                                            value="other"
-                                            className="w-4 h-4 text-white bg-gray-100 border-gray-300 focus:ring-[#ED7D4A]"
-                                        />
+                                        <input type="radio" id="other" name="subject" value="other" className="custom-radio" />
                                         <label htmlFor="other" className="ml-3 text-sm text-white font-[inter]">
                                             Other
                                         </label>

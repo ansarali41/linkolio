@@ -1,0 +1,29 @@
+.custom-radio {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+
+.custom-radio:checked {
+    background-color: white;
+    border-color: white;
+}
+
+.custom-radio:checked::after {
+    content: '✓';
+    position: absolute;
+    color: #313e47;
+    font-size: 12px;
+    font-weight: bold;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+}
+.custom-radio:focus {
+    outline: none;
+}
