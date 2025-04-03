@@ -57,7 +57,7 @@ export default function ClientsSection({ isShow }) {
 
     return (
         isShow && (
-            <section>
+            <section id="clients">
                 <DiamondLine diamondPosition="right" />
                 <div className="py-[40px] lg:py-20">
                     <div className=" px-[20px] lg:px-32 overflow-hidden">

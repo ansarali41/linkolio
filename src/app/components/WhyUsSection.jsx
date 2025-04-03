@@ -3,7 +3,7 @@ import DiamondLine from './DiamondLine';
 
 export default function WhyUsSection() {
     return (
-        <section>
+        <section id="why-us">
             <DiamondLine diamondPosition="left" />
             <div className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
                 <div className="grid md:grid-cols-2 gap-5 md:gap-26 items-center">

@@ -47,7 +47,7 @@ export default function ArticlesSection({ isShow }) {
 
     return (
         isShow && (
-            <section className="hidden xl:block">
+            <section className="hidden xl:block" id="articles">
                 <DiamondLine diamondPosition="left" />
                 <div className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] md:gap-0 items-center mb-10">

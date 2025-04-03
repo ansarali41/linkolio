@@ -1,7 +1,6 @@
 import ArticlesSection from './components/ArticlesSection';
 import ClientsSection from './components/ClientsSection';
 import ContactSection from './components/ContactSection';
-import DiamondLine from './components/DiamondLine';
 import ExpertiseSection from './components/ExpertiseSection';
 import FaqSection from './components/FaqSection';
 import Footer from './components/Footer';

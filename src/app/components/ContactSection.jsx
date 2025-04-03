@@ -4,7 +4,7 @@ import './RadioButton.css';
 
 export default function ContactSection() {
     return (
-        <section>
+        <section id="contact">
             <DiamondLine diamondPosition="left" />
             <div className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] lg:gap-0 items-center pb-[25px] lg:pb-[60px]">

@@ -31,7 +31,7 @@ export default function FaqSection({ isShow }) {
 
     return (
         isShow && (
-            <section>
+            <section id="faq">
                 <DiamondLine diamondPosition="right" />
                 <div className="py-[40px] md:py-20 px-[20px] md:px-32 overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] md:gap-0 items-center">

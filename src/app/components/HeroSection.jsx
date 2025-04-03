@@ -1,10 +1,11 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import Header from './Header';
 
 export default function HeroSection() {
     return (
-        <section>
+        <section id="home">
             <div className="bg-[url('/images/hero-bg.png')] bg-no-repeat bg-cover bg-center">
                 {/* header */}
                 <Header />
@@ -34,12 +35,14 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <div className="mt-[18px] lg:mt-[65px] text-center lg:text-start">
-                                <button
-                                    type="submit"
-                                    className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
-                                >
-                                    Contact Us
-                                </button>
+                                <Link href="/#contact">
+                                    <button
+                                        type="submit"
+                                        className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
+                                    >
+                                        Contact Us
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         {/* image div */}

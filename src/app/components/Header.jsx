@@ -2,19 +2,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { RxHamburgerMenu } from 'react-icons/rx';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 export default function Header() {
     const pathname = usePathname();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const links = [
-        { href: '/', label: 'Home' },
-        { href: '/why-us', label: 'Why Us' },
-        { href: '/expertise', label: 'Our Expertise' },
-        { href: '/skills', label: 'Our Skills' },
+        { href: '#home', label: 'Home' },
+        { href: '#why-us', label: 'Why Us' },
+        { href: '#expertise', label: 'Our Expertise' },
+        { href: '#skills', label: 'Our Skills' },
     ];
 
     const isActive = href => {
@@ -53,12 +53,14 @@ export default function Header() {
 
                     {/* button */}
                     <div className="col-span-3 hidden lg:flex items-center justify-end">
-                        <button
-                            type="button"
-                            className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
-                        >
-                            Contact Us
-                        </button>
+                        <Link href="/#contact">
+                            <button
+                                type="button"
+                                className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
+                            >
+                                Contact Us
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
