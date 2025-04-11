@@ -24,3 +24,17 @@ body {
 .swiper-pagination-bullet-active {
     background: #ed7d4a;
 }
+
+.icon-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-wrapper img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.icon-wrapper:hover img {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(80%) saturate(1539%) hue-rotate(339deg) brightness(96%) contrast(93%);
+}

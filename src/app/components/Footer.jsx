@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <footer className="py-16 lg:py-20 lg:pb-[50px] px-4 lg:px-32 overflow-hidden" id="footer">
+        <footer className="py-16 lg:py-17 lg:pb-[50px] px-4 lg:px-32 overflow-hidden" id="footer">
             <div>
                 <div className="flex items-center justify-center">
                     <Image src="/images/logos/logo.png" alt="Logo" width={222} height={60} />

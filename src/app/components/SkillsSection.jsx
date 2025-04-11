@@ -38,7 +38,7 @@ export default function SkillsSection() {
     return (
         <section id="skills">
             <DiamondLine diamondPosition="left" />
-            <div className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
+            <div className="py-[40px] lg:py-17 px-[20px] lg:px-32 overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] md:gap-0 items-center">
                     {/* Column 1 */}
                     <div className="col-span-1 lg:col-span-5">
@@ -49,15 +49,15 @@ export default function SkillsSection() {
 
                     {/* Column 2 */}
                     <div className="col-span-1 lg:col-span-2">
-                        <div className="hidden lg:flex justify-end">
+                        <div className="hidden lg:flex justify-center">
                             <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.20)]"></div>
                         </div>
                     </div>
 
                     {/* Column 3 */}
-                    <div className="text-center col-span-1 lg:col-span-5">
+                    <div className="col-span-1 lg:col-span-5">
                         <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
-                        Nous allions créativité et expertise technique pour concevoir des solutions innovantes, pensées pour l’utilisateur et optimisées pour la performance
+                            Nous allions créativité et expertise technique pour concevoir des solutions innovantes, pensées pour l’utilisateur et optimisées pour la performance
                         </p>
                     </div>
                 </div>
@@ -73,10 +73,12 @@ export default function SkillsSection() {
                                 borderRight: '1px solid #ED7D4A',
                                 borderBottom: '1px solid #ED7D4A',
                             }}
-                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] pl-[45px] pr-[59px] h-[390px] w-[413px]"
+                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] pl-[45px] pr-[59px] h-[485px] w-[413px]"
                         >
                             <div className="flex items-center">
-                                <Image src={item.icon} alt={item.title} width={100} height={100} />
+                                <div className="icon-wrapper">
+                                    <Image src={item.icon} alt={item.title} width={100} height={100} />
+                                </div>
                                 <p className="text-white font-[inter] text-[30px] font-bold leading-normal">{item.title}</p>
                             </div>
 

@@ -5,20 +5,17 @@ export default function ExpertiseSection() {
         {
             id: '01',
             title: 'Architecture',
-            description:
-                "Cloud, Sécurité, API Management",
+            description: 'Cloud, Sécurité, API Management',
         },
         {
             id: '02',
             title: 'Développement',
-            description:
-                'Back-end, front-end, Web, Mobile natif, Cross-platform, Industrialisation',
+            description: 'Back-end, front-end, Web, Mobile natif, Cross-platform, Industrialisation',
         },
         {
             id: '03',
             title: 'Pilotage',
-            description:
-                'Méthodologies Scrum et agilité à l’échelle pour des projets dynamiques et collaboratifs',
+            description: 'Méthodologies Scrum et agilité à l’échelle pour des projets dynamiques et collaboratifs',
         },
     ];
 
@@ -36,15 +33,16 @@ export default function ExpertiseSection() {
 
                     {/* Column 2 */}
                     <div className="col-span-1 lg:col-span-2">
-                        <div className="hidden lg:flex justify-end">
+                        <div className="hidden lg:flex justify-center">
                             <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.20)]"></div>
                         </div>
                     </div>
 
                     {/* Column 3 */}
-                    <div className="text-center col-span-1 lg:col-span-5">
+                    <div className=" col-span-1 lg:col-span-5">
                         <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
-                        De l’architecture au développement, en passant par le pilotage agile, nos domaines d’intervention traduisent notre capacité à concevoir, construire et faire évoluer des solutions digitales performantes et robustes.
+                            De l’architecture au développement, en passant par le pilotage agile, nos domaines d’intervention traduisent notre capacité à concevoir, construire et
+                            faire évoluer des solutions digitales performantes et robustes.
                         </p>
                     </div>
                 </div>

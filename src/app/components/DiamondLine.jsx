@@ -1,6 +1,6 @@
 export default function DiamondLine({ diamondPosition }) {
     return (
-        <div className="flex items-center justify-center w-full py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
+        <div className="flex items-center justify-center w-full py-[4px] lg:py-9.5 px-[20px] lg:px-32 overflow-hidden">
             <div className="flex items-center w-full">
                 {diamondPosition === 'left' ? (
                     <>
