@@ -6,19 +6,19 @@ export default function ExpertiseSection() {
             id: '01',
             title: 'Architecture',
             description:
-                "Could you clarify which architecture you're referring to? Is it related to software architecture, system design, or something else? This will help me craft a more accurate sub-description for you.",
+                "Cloud, Sécurité, API Management",
         },
         {
             id: '02',
-            title: 'Piloting',
+            title: 'Développement',
             description:
-                'Piloting refers to the process of testing a new project, system, or solution in a controlled or limited environment before its full-scale implementation. It involves deploying a smaller version or prototype to evaluate its functionality,',
+                'Back-end, front-end, Web, Mobile natif, Cross-platform, Industrialisation',
         },
         {
             id: '03',
-            title: 'Development',
+            title: 'Pilotage',
             description:
-                'Development refers to the process of creating and building a product, system, or solution from concept to completion. It encompasses a series of stages, including planning, design, coding, testing, and deployment. The development ',
+                'Méthodologies Scrum et agilité à l’échelle pour des projets dynamiques et collaboratifs',
         },
     ];
 
@@ -30,7 +30,7 @@ export default function ExpertiseSection() {
                     {/* Column 1 */}
                     <div className="col-span-1 lg:col-span-5">
                         <p className="text-[#ED7D4A] text-center lg:text-left leading-trim lg:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] lg:text-[40px] sm:text-[24px] lg:sm:text-[40px]">
-                            <span className="text-white">Our</span> Expertise
+                            <span className="text-white">NOS</span> domaines d’intervention
                         </p>
                     </div>
 
@@ -44,7 +44,7 @@ export default function ExpertiseSection() {
                     {/* Column 3 */}
                     <div className="text-center col-span-1 lg:col-span-5">
                         <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
-                            We specialize in creating innovative, user-centered solutions with expertise in UX/UI design, software development, and system optimization.
+                        De l’architecture au développement, en passant par le pilotage agile, nos domaines d’intervention traduisent notre capacité à concevoir, construire et faire évoluer des solutions digitales performantes et robustes.
                         </p>
                     </div>
                 </div>

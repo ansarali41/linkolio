@@ -6,32 +6,32 @@ export default function SkillsSection() {
         {
             icon: '/images/skills-icons/Architecture.png',
             title: 'Architecture',
-            description: 'Our architects guarantee the design of innovative architecture while ensuring relevance to the business.',
+            description: 'Nos architectes conçoivent des architectures innovantes, tout en garantissant leur alignement avec les enjeux métiers.',
         },
         {
             icon: '/images/skills-icons/Development.png',
-            title: 'Development',
-            description: 'Our developers are passionate and will help you optimize your development processes and improve your velocity.',
+            title: 'Développement',
+            description: 'Nos développeurs passionnés vous accompagnent dans l’optimisation de vos processus de développement et l’amélioration de votre vélocité.',
         },
         {
             icon: '/images/skills-icons/Devops.png',
             title: 'DevOps',
-            description: 'We industrialize and make your services more reliable, while maintaining control of the varied and complex environments.',
+            description: 'Nous industrialisons vos services et renforçons leur fiabilité, tout en maîtrisant des environnements complexes et hétérogènes.',
         },
         {
             icon: '/images/skills-icons/BigData.png',
             title: 'Big Data',
-            description: 'We help you take ownership of your data assets to know them, exploit them and enhance their value.',
+            description: 'Nous vous aidons à vous approprier vos actifs data pour mieux les comprendre, les exploiter et en extraire toute la valeur.',
         },
         {
             icon: '/images/skills-icons/Observability.png',
-            title: 'Observability',
-            description: 'Observability is the concern of all our experts because it guarantees the reliability of our solutions.',
+            title: 'Observabilité',
+            description: 'L’observabilité est au cœur des préoccupations de nos experts : elle est garante de la fiabilité de nos solutions.',
         },
         {
             icon: '/images/skills-icons/Agility.png',
-            title: 'Agility',
-            description: 'Our agile mindset develops our resilience, frees up initiative and supports innovation and continuous improvement.',
+            title: 'Agilité',
+            description: 'Notre culture agile développe la résilience, libère l’initiative et soutient l’innovation ainsi que l’amélioration continue.',
         },
     ];
 
@@ -43,7 +43,7 @@ export default function SkillsSection() {
                     {/* Column 1 */}
                     <div className="col-span-1 lg:col-span-5">
                         <p className="text-[#ED7D4A] text-center lg:text-left leading-trim lg:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] lg:text-[40px] sm:text-[24px] lg:sm:text-[40px]">
-                            <span className="text-white"> Our </span>Skills
+                            <span className="text-white"> Notre </span>Expertise
                         </p>
                     </div>
 
@@ -57,7 +57,7 @@ export default function SkillsSection() {
                     {/* Column 3 */}
                     <div className="text-center col-span-1 lg:col-span-5">
                         <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
-                            We specialize in creating innovative, user-centered solutions with expertise in UX/UI design, software development, and system optimization.
+                        Nous allions créativité et expertise technique pour concevoir des solutions innovantes, pensées pour l’utilisateur et optimisées pour la performance
                         </p>
                     </div>
                 </div>

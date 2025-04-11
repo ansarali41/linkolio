@@ -11,10 +11,10 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const links = [
-        { href: '#home', label: 'Home' },
-        { href: '#why-us', label: 'Why Us' },
-        { href: '#expertise', label: 'Our Expertise' },
-        { href: '#skills', label: 'Our Skills' },
+        { href: '#home', label: 'Accueil' },
+        { href: '#why-us', label: 'Pourquoi Nous ?' },
+        { href: '#expertise', label: 'Nos Domaines d\'intervention' },
+        { href: '#skills', label: 'Notre Expertise' },
     ];
 
     const isActive = href => {
@@ -58,7 +58,7 @@ export default function Header() {
                                 type="button"
                                 className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
                             >
-                                Contact Us
+                                Contactez-nous
                             </button>
                         </Link>
                     </div>
