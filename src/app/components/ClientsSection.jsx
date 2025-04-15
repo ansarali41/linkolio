@@ -59,7 +59,7 @@ export default function ClientsSection({ isShow }) {
         isShow && (
             <section id="clients">
                 <DiamondLine diamondPosition="right" />
-                <div className="py-[40px] lg:py-20">
+                <div className="py-[40px] lg:py-17">
                     <div className=" px-[20px] lg:px-32 overflow-hidden">
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-[15px] md:gap-0 items-center mb-10">
                             {/* Column 1 */}

@@ -6,23 +6,23 @@ import DiamondLine from './DiamondLine';
 export default function FaqSection({ isShow }) {
     const faqs = [
         {
-            question: 'How much money can I make with Communities using Linkolio?',
+            question: 'How much money can I make with Communities using Linkolia?',
             answer: 'We offer a comprehensive range of services including web development, mobile app development, UI/UX design, cloud solutions, data analytics, and cybersecurity.',
         },
         {
-            question: 'How much money can I make with Communities using Linkolio?',
+            question: 'How much money can I make with Communities using Linkolia?',
             answer: 'Project timelines vary depending on scope and complexity. We provide detailed estimates after initial consultation.',
         },
         {
-            question: 'How much money can I make with Communities using Linkolio?',
+            question: 'How much money can I make with Communities using Linkolia?',
             answer: 'Our process includes requirements gathering, planning, design, development, testing, and deployment, with regular client communication throughout.',
         },
         {
-            question: 'How much money can I make with Communities using Linkolio?',
+            question: 'How much money can I make with Communities using Linkolia?',
             answer: 'Yes, we offer various support and maintenance packages to ensure your solution continues to perform optimally.',
         },
         {
-            question: 'How much money can I make with Communities using Linkolio?',
+            question: 'How much money can I make with Communities using Linkolia?',
             answer: 'Yes, we offer various support and maintenance packages to ensure your solution continues to perform optimally.',
         },
     ];

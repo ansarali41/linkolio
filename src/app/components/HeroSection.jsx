@@ -14,15 +14,18 @@ export default function HeroSection() {
                         {/* content div */}
                         <div className="text-white col-span-12 lg:col-span-5">
                             <div className="mt-[80px] text-center lg:text-start lg:mt-[200px]">
-                                <h1 className="font-[inter] font-[700] text-[32px] lg:text-[66px] leading-[122%] uppercase">YOUR Link to Expertise</h1>
+                                <h1 className="font-[inter] font-[700] text-[32px] lg:text-[66px] leading-[122%] uppercase">Votre lien avec l’expertise</h1>
                             </div>
 
                             <div className="flex items-center justify-center lg:justify-start gap-6 lg:gap-10 mt-[14px] lg:mt-[60px]">
+                                {/* 
                                 <div>
                                     <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">40k</p>
                                     <p className="font-[inter] font-normal text-[14px] lg:text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Satisfied Clients</p>
                                 </div>
+                                */}
                                 {/* vertical line */}
+                                {/* 
                                 <div>
                                     <div className="flex justify-end">
                                         <div className="w-[1.5px] h-[81px] bg-[rgba(255,94,39,0.86)]"></div>
@@ -33,6 +36,7 @@ export default function HeroSection() {
                                     <p className="font-[inter] font-[600] text-[25.694px] lg:text-[38.75px]">20</p>
                                     <p className="font-[inter] font-normal text-[14px] lg:text-[22.604px] text-[rgba(255,255,255,0.88)] pt-[10px]">Awards Won</p>
                                 </div>
+                                */}
                             </div>
                             <div className="mt-[18px] lg:mt-[65px] text-center lg:text-start">
                                 <Link href="/#contact">
@@ -40,7 +44,7 @@ export default function HeroSection() {
                                         type="submit"
                                         className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
                                     >
-                                        Contact Us
+                                        Contactez-nous
                                     </button>
                                 </Link>
                             </div>

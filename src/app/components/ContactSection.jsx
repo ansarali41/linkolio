@@ -5,13 +5,13 @@ import './RadioButton.css';
 export default function ContactSection() {
     return (
         <section id="contact">
-            <DiamondLine diamondPosition="left" />
-            <div className="py-[40px] lg:py-20 px-[20px] lg:px-32 overflow-hidden">
+            <DiamondLine diamondPosition="right" />
+            <div className="pb-[40px] lg:pb-[114px] px-[20px] lg:px-32 overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[15px] lg:gap-0 items-center pb-[25px] lg:pb-[60px]">
                     {/* Column 1 */}
                     <div className="lg:col-span-5">
                         <p className="text-[#ED7D4A] text-center lg:text-left leading-trim lg:leading-none text-edge-cap font-[inter] font-semibold tracking-[-0.02em] uppercase text-[22px] lg:text-[40px] sm:text-[24px] lg:sm:text-[40px]">
-                            <span className="text-white">CONTACT</span> US
+                            <span className="text-white">CONTACTEZ</span> NOUS
                         </p>
                     </div>
 
@@ -23,7 +23,7 @@ export default function ContactSection() {
                     {/* Column 3 */}
                     <div className="text-center lg:col-span-5">
                         <p className="text-white font-[poppins] font-light text-[14px] leading-[20px] sm:text-base sm:leading-[156%]">
-                            Any question or remarks? Just write us a message
+                            Une question ou une remarque ? Écrivez-nous un message.
                         </p>
                     </div>
                 </div>
@@ -32,26 +32,25 @@ export default function ContactSection() {
                         {/* Contact Information */}
 
                         <div className="bg-[#ED7D4A] py-[40px] px-[12px] lg:p-[40px] rounded md:col-span-5">
-                            <h3 className="text-white font-[inter] font-semibold text-[28px] leading-none mb-[16px]">Contact Information</h3>
-                            <p className="text-white font-poppins font-normal text-[16px] leading-normal pb-[55px]">Say something to start a live chat!</p>
+                            <h3 className="text-white font-[inter] font-semibold text-[28px] leading-none mb-[16px]">Information de Contact</h3>
                             <div className="space-y-[55px]">
                                 <p className="flex items-center text-white font-[inter] font-normal text-[16px] leading-normal">
                                     <span className="pr-6">
                                         <MdPhoneInTalk className="text-white" />
                                     </span>
-                                    +331 54 296 7490
+                                    0033.9.77.97.27.39
                                 </p>
                                 <p className="flex items-center text-white font-[inter] font-normal text-[16px] leading-normal">
                                     <span className="pr-6">
                                         <MdEmail className="text-white" />
                                     </span>
-                                    mondher.saadaoui@gmail.com
+                                    contact@linkolia.com
                                 </p>
                                 <p className="flex items-center text-white font-[inter] font-normal text-[16px] leading-normal">
                                     <span className="pr-6">
                                         <MdLocationOn className="text-white" />
                                     </span>
-                                    France, Massachusetts 02156 Europe States
+                                    295, rue Du Professeur Paul Milliez - 94500 Champigny-sur-Marne. France.
                                 </p>
                             </div>
                         </div>
@@ -62,26 +61,26 @@ export default function ContactSection() {
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-[40px]">
                                     <div>
                                         <label htmlFor="name" className="block text-sm font-medium text-white font-[inter] text-[12px] leading-[20px] font-500">
-                                            First Name
+                                            Prénom
                                         </label>
                                         <input
                                             type="text"
                                             id="name"
                                             name="firstName"
                                             className="w-full px-1 py-3 text-white border-b border-white outline-none"
-                                            placeholder="Your name"
+                                            placeholder="Votre prénom"
                                         />
                                     </div>
                                     <div>
                                         <label htmlFor="text" className="block text-sm font-medium text-white font-[inter] text-[12px] leading-[20px] font-500">
-                                            Last Name
+                                            Nom
                                         </label>
                                         <input
                                             type="text"
                                             id="text"
                                             name="lastName"
                                             className="w-full px-1 py-3 text-white border-b border-white outline-none"
-                                            placeholder="Your last name"
+                                            placeholder="Votre nom"
                                         />
                                     </div>
                                 </div>
@@ -95,20 +94,20 @@ export default function ContactSection() {
                                             id="email"
                                             name="email"
                                             className="w-full px-1 py-3 text-white border-b border-white outline-none"
-                                            placeholder="Your email"
+                                            placeholder="Votre email"
                                         />
                                     </div>
 
                                     <div>
                                         <label htmlFor="phone" className="block text-sm font-medium text-white font-[inter] text-[12px] leading-[20px] font-500">
-                                            Phone
+                                            Numéro de téléphone
                                         </label>
                                         <input
                                             type="tel"
                                             id="phone"
                                             name="phone"
                                             className="w-full px-1 py-3 text-white border-b border-white outline-none"
-                                            placeholder="Your phone"
+                                            placeholder="Votre numéro de téléphone"
                                         />
                                     </div>
                                 </div>
@@ -120,25 +119,25 @@ export default function ContactSection() {
                                         <div className="flex items-center">
                                             <input type="radio" id="general" name="subject" value="general" className="custom-radio" />
                                             <label htmlFor="general" className="ml-3 text-sm text-gray-300 font-[inter]">
-                                                General Inquiry
+                                                Demande générale
                                             </label>
                                         </div>
                                         <div className="flex items-center">
                                             <input type="radio" id="support" name="subject" value="support" className="custom-radio" />
                                             <label htmlFor="support" className="ml-3 text-sm text-gray-300 font-[inter]">
-                                                Support Request
+                                                Demande de support
                                             </label>
                                         </div>
                                         <div className="flex items-center">
                                             <input type="radio" id="partnership" name="subject" value="partnership" className="custom-radio" />
                                             <label htmlFor="partnership" className="ml-3 text-sm text-white font-[inter]">
-                                                Partnership Inquiry
+                                                Demande de partenariat
                                             </label>
                                         </div>
                                         <div className="flex items-center">
                                             <input type="radio" id="other" name="subject" value="other" className="custom-radio" />
                                             <label htmlFor="other" className="ml-3 text-sm text-white font-[inter]">
-                                                Other
+                                                Autre
                                             </label>
                                         </div>
                                     </div>
@@ -152,12 +151,12 @@ export default function ContactSection() {
                                         name="message"
                                         rows={1}
                                         className="w-full px-1 py-3 text-white border-b border-white outline-none"
-                                        placeholder="Write your message.."
+                                        placeholder="Ecrire votre message.."
                                     ></textarea>
                                 </div>
                                 <div className="flex justify-end">
                                     <button type="submit" className=" bg-[#ED7D4A] text-white px-6 py-3 rounded-lg hover:bg-[#ED7D4A] transition-colors font-medium">
-                                        Send Message
+                                        Envoyer Message
                                     </button>
                                 </div>
                             </form>

@@ -17,15 +17,17 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-    title: 'Linkolio - Your Link to Expertise',
-    description: 'Connect with expert professionals and innovative solutions for your business needs',
+    title: 'Linkolia - Votre lien avec l\'expertise',
+    description: 'Connectez-vous avec des professionnels experts et des solutions innovantes pour répondre aux besoins de votre entreprise.',
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${inter.variable} ${poppins.variable} font-sans antialiased bg-[#313E47]`}>
+                {/* 
                 <TopBar />
+                */}
                 {/* <Header /> */}
                 {children}
             </body>

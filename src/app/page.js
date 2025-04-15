@@ -19,7 +19,9 @@ export default function Home() {
             <ArticlesSection isShow={false} />
             <FaqSection isShow={false} />
             <ContactSection />
+            {/* 
             <Footer />
+            */}
         </div>
     );
 }
