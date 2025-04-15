@@ -17,7 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-    title: 'Linkolia - Votre lien avec l\'expertise',
+    title: "Linkolia - Votre lien avec l'expertise",
     description: 'Connectez-vous avec des professionnels experts et des solutions innovantes pour répondre aux besoins de votre entreprise.',
 };
 

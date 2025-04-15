@@ -13,7 +13,7 @@ export default function Header() {
     const links = [
         { href: '#home', label: 'Accueil' },
         { href: '#why-us', label: 'Pourquoi Nous ?' },
-        { href: '#expertise', label: 'Nos Domaines d\'intervention' },
+        { href: '#expertise', label: "Nos Domaines d'intervention" },
         { href: '#skills', label: 'Notre Expertise' },
     ];
 
@@ -30,12 +30,12 @@ export default function Header() {
             <div className="rounded-[10px] lg:bg-[rgba(237,125,74,0.26)] lg:shadow-[4px_4px_20px_4px_rgba(0,0,0,0.10)] lg:backdrop-blur-[106.5px] p-[10px]">
                 <div className="grid grid-cols-12 items-center">
                     {/* images */}
-                    <div className="col-span-3">
+                    <div className="col-span-2">
                         <Image src="/images/logos/logo.png" alt="Logo" width={222} height={60} />
                     </div>
 
                     {/* links */}
-                    <div className="col-span-6 hidden lg:flex items-center justify-center gap-[70px]">
+                    <div className="col-span-8 hidden lg:flex items-center justify-center gap-[70px]">
                         {links.map(link => (
                             <Link
                                 key={link.href}
@@ -52,11 +52,11 @@ export default function Header() {
                     </div>
 
                     {/* button */}
-                    <div className="col-span-3 hidden lg:flex items-center justify-end">
+                    <div className="col-span-2 hidden lg:flex items-center justify-end">
                         <Link href="/#contact">
                             <button
                                 type="button"
-                                className="bg-[#ED7D4A] text-white px-11 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
+                                className="bg-[#ED7D4A] text-white px-7 py-5 rounded-lg hover:bg-[#ED7D4A] transition-colors font-[inter] font-semibold text-[20px] leading-[28px]"
                             >
                                 Contactez-nous
                             </button>

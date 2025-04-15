@@ -65,7 +65,7 @@ export default function SkillsSection() {
                 <div className="mb-[70px] hidden md:block"></div>
 
                 {/* 3 div section */}
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-[15px] md:gap-[10px] items-center justify-items-center pt-[20px] md:pt-0">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-[10px] md:gap-[10px] items-center justify-items-center pt-[20px] md:pt-0">
                     {skills.map((item, index) => (
                         <div
                             key={index}
@@ -73,13 +73,13 @@ export default function SkillsSection() {
                                 borderRight: '1px solid #ED7D4A',
                                 borderBottom: '1px solid #ED7D4A',
                             }}
-                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] pl-[45px] pr-[59px] h-[485px] w-[413px]"
+                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] px-[30px] h-[440px] w-[413px] mt-2"
                         >
                             <div className="flex items-center">
                                 <div className="icon-wrapper">
                                     <Image src={item.icon} alt={item.title} width={100} height={100} />
                                 </div>
-                                <p className="text-white font-[inter] text-[30px] font-bold leading-normal">{item.title}</p>
+                                <p className="text-white font-[inter] text-[30px] font-bold leading-normal pl-[15px]">{item.title}</p>
                             </div>
 
                             <div className="pt-[25px]">
