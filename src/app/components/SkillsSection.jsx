@@ -11,7 +11,7 @@ export default function SkillsSection() {
         {
             icon: '/images/skills-icons/Development.png',
             title: 'Développement',
-            description: 'Nos développeurs passionnés vous accompagnent dans l’optimisation de vos processus de développement et l’amélioration de votre vélocité.',
+            description: 'Nos développeurs passionnés vous accompagnent dans l’optimisation de vos processus et l’amélioration de votre vélocité.',
         },
         {
             icon: '/images/skills-icons/Devops.png',
@@ -73,7 +73,7 @@ export default function SkillsSection() {
                                 borderRight: '1px solid #ED7D4A',
                                 borderBottom: '1px solid #ED7D4A',
                             }}
-                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] px-[30px] h-[440px] w-[413px] mt-2"
+                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] px-[30px] h-[400px] w-[413px] mt-2"
                         >
                             <div className="flex items-center">
                                 <div className="icon-wrapper">
