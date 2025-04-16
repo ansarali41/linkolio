@@ -65,7 +65,7 @@ export default function SkillsSection() {
                 <div className="mb-[70px] hidden md:block"></div>
 
                 {/* 3 div section */}
-                <div className="grid grid-cols-1 md:grid-cols-12 gap-[10px] md:gap-[10px] items-center justify-items-center pt-[20px] md:pt-0">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-[10px] md:gap-[15px] items-center justify-items-center pt-[20px] md:pt-0">
                     {skills.map((item, index) => (
                         <div
                             key={index}
@@ -73,7 +73,7 @@ export default function SkillsSection() {
                                 borderRight: '1px solid #ED7D4A',
                                 borderBottom: '1px solid #ED7D4A',
                             }}
-                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] px-[30px] h-[400px] w-[413px] mt-2"
+                            className="md:col-span-6 lg:col-span-4 rounded-[4px] border-2 border-[rgba(255,94,39,0.00)] bg-[#313E47] shadow-[0px_1px_15px_4px_rgba(0,0,0,0.17)] pt-[30px] px-[30px] min-h-[400px] 2xl:min-h-[350px] min-w-[413px] mt-2"
                         >
                             <div className="flex items-center">
                                 <div className="icon-wrapper">
